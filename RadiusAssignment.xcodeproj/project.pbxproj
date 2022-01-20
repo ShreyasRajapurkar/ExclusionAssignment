@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11552C72796C5BC00C0C08C /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11552C62796C5BC00C0C08C /* NetworkingClient.swift */; };
+		B11552CC2796DAE700C0C08C /* FullFacilitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11552CB2796DAE700C0C08C /* FullFacilitiesViewModel.swift */; };
+		B11552CF2796E66300C0C08C /* FacilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11552CE2796E66300C0C08C /* FacilityCell.swift */; };
+		B13BB3D127962666004C719E /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BB3D027962666004C719E /* Option.swift */; };
+		B13BB3D32796266E004C719E /* Exclusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BB3D22796266E004C719E /* Exclusion.swift */; };
+		B13BB3D52796268F004C719E /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BB3D42796268F004C719E /* Facility.swift */; };
+		B13BB3D7279626AD004C719E /* FullFacilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BB3D6279626AD004C719E /* FullFacilities.swift */; };
 		B1640A4D2796225600C9CB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1640A4C2796225600C9CB75 /* AppDelegate.swift */; };
 		B1640A4F2796225600C9CB75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1640A4E2796225600C9CB75 /* SceneDelegate.swift */; };
 		B1640A512796225600C9CB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1640A502796225600C9CB75 /* ViewController.swift */; };
 		B1640A542796225600C9CB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1640A522796225600C9CB75 /* Main.storyboard */; };
 		B1640A562796225700C9CB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1640A552796225700C9CB75 /* Assets.xcassets */; };
 		B1640A592796225700C9CB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1640A572796225700C9CB75 /* LaunchScreen.storyboard */; };
+		B1B7FC572797125C008EF202 /* FacilityCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B7FC562797125C008EF202 /* FacilityCellViewModel.swift */; };
+		C0B8049E099317ACCCD7B56B /* Pods_RadiusAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A988F4745083F24057F214 /* Pods_RadiusAssignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		031A5757675EAECB3D74E95A /* Pods-RadiusAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadiusAssignment.debug.xcconfig"; path = "Target Support Files/Pods-RadiusAssignment/Pods-RadiusAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		0FFDB7702976A5DFE9BEF0B6 /* Pods-RadiusAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadiusAssignment.release.xcconfig"; path = "Target Support Files/Pods-RadiusAssignment/Pods-RadiusAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		B11552C62796C5BC00C0C08C /* NetworkingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
+		B11552CB2796DAE700C0C08C /* FullFacilitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullFacilitiesViewModel.swift; sourceTree = "<group>"; };
+		B11552CE2796E66300C0C08C /* FacilityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityCell.swift; sourceTree = "<group>"; };
+		B13BB3D027962666004C719E /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		B13BB3D22796266E004C719E /* Exclusion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exclusion.swift; sourceTree = "<group>"; };
+		B13BB3D42796268F004C719E /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
+		B13BB3D6279626AD004C719E /* FullFacilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullFacilities.swift; sourceTree = "<group>"; };
 		B1640A492796225600C9CB75 /* RadiusAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadiusAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1640A4C2796225600C9CB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1640A4E2796225600C9CB75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,8 @@
 		B1640A552796225700C9CB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1640A582796225700C9CB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1640A5A2796225700C9CB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B7FC562797125C008EF202 /* FacilityCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityCellViewModel.swift; sourceTree = "<group>"; };
+		C8A988F4745083F24057F214 /* Pods_RadiusAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadiusAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B8049E099317ACCCD7B56B /* Pods_RadiusAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		757C909294A44FE52E304D07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A988F4745083F24057F214 /* Pods_RadiusAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A43084ACF32CA6806BF968E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				031A5757675EAECB3D74E95A /* Pods-RadiusAssignment.debug.xcconfig */,
+				0FFDB7702976A5DFE9BEF0B6 /* Pods-RadiusAssignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B11552C52796C5AA00C0C08C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B11552C62796C5BC00C0C08C /* NetworkingClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B11552CA2796DAD300C0C08C /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				B11552CB2796DAE700C0C08C /* FullFacilitiesViewModel.swift */,
+				B1B7FC562797125C008EF202 /* FacilityCellViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		B11552CD2796E65500C0C08C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B11552CE2796E66300C0C08C /* FacilityCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B13BB3CF27962648004C719E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B13BB3D027962666004C719E /* Option.swift */,
+				B13BB3D22796266E004C719E /* Exclusion.swift */,
+				B13BB3D42796268F004C719E /* Facility.swift */,
+				B13BB3D6279626AD004C719E /* FullFacilities.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B1640A402796225600C9CB75 = {
 			isa = PBXGroup;
 			children = (
+				B11552CD2796E65500C0C08C /* View */,
+				B11552CA2796DAD300C0C08C /* View Model */,
+				B11552C52796C5AA00C0C08C /* Networking */,
+				B13BB3CF27962648004C719E /* Model */,
 				B1640A4B2796225600C9CB75 /* RadiusAssignment */,
 				B1640A4A2796225600C9CB75 /* Products */,
+				A43084ACF32CA6806BF968E4 /* Pods */,
+				757C909294A44FE52E304D07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1640A5D2796225700C9CB75 /* Build configuration list for PBXNativeTarget "RadiusAssignment" */;
 			buildPhases = (
+				0549BE44C06F75A06449D1C1 /* [CP] Check Pods Manifest.lock */,
 				B1640A452796225600C9CB75 /* Sources */,
 				B1640A462796225600C9CB75 /* Frameworks */,
 				B1640A472796225600C9CB75 /* Resources */,
+				0CB920944E6AB658F66E33C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +215,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0549BE44C06F75A06449D1C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadiusAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CB920944E6AB658F66E33C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadiusAssignment/Pods-RadiusAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadiusAssignment/Pods-RadiusAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RadiusAssignment/Pods-RadiusAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1640A452796225600C9CB75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11552C72796C5BC00C0C08C /* NetworkingClient.swift in Sources */,
+				B11552CF2796E66300C0C08C /* FacilityCell.swift in Sources */,
+				B1B7FC572797125C008EF202 /* FacilityCellViewModel.swift in Sources */,
+				B11552CC2796DAE700C0C08C /* FullFacilitiesViewModel.swift in Sources */,
+				B13BB3D52796268F004C719E /* Facility.swift in Sources */,
+				B13BB3D127962666004C719E /* Option.swift in Sources */,
+				B13BB3D7279626AD004C719E /* FullFacilities.swift in Sources */,
+				B13BB3D32796266E004C719E /* Exclusion.swift in Sources */,
 				B1640A512796225600C9CB75 /* ViewController.swift in Sources */,
 				B1640A4D2796225600C9CB75 /* AppDelegate.swift in Sources */,
 				B1640A4F2796225600C9CB75 /* SceneDelegate.swift in Sources */,
@@ -284,6 +416,7 @@
 		};
 		B1640A5E2796225700C9CB75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031A5757675EAECB3D74E95A /* Pods-RadiusAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +445,7 @@
 		};
 		B1640A5F2796225700C9CB75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FFDB7702976A5DFE9BEF0B6 /* Pods-RadiusAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
